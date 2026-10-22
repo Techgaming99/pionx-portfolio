@@ -104,7 +104,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opa
 .milestone.is-visible .milestone-dot{animation:milestone-dot-pop .3s steps(3,end) 1.1s both;transform-box:fill-box;transform-origin:center}
 @keyframes milestone-line-draw{to{stroke-dashoffset:0}}
 @keyframes milestone-dot-pop{from{transform:scale(0)}to{transform:scale(1)}}
-.milestone-chart-caption{display:flex;justify-content:center;margin-top:8px;color:#b8b4a3;font:700 10px "Courier New",monospace;letter-spacing:.09em}
+.milestone-chart-caption{display:flex;justify-content:center;margin-top:8px;color:#b8b4a3;font:700 10px "Courier New",monospace;letter-spacing:.09em}.milestone-status{margin-top:8px!important;color:#b8b4a3;font-size:12px!important}.milestone-chart-max,.milestone-chart-mid{fill:#b8b4a3;font:700 10px "Courier New",monospace}
 @media(max-width:900px){.milestone{grid-template-columns:1fr;gap:18px}}
 @media(max-width:700px){.milestone{padding:22px}.milestone-media{grid-template-columns:1fr;gap:18px}.milestone-visual{padding:0 8px}.milestone-video{max-width:230px}}
 </style>
@@ -117,8 +117,8 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opa
 <section class="wrap hero" id="home"><div class="eyebrow">Video editor · PionX</div><h1>Edits with<br><span>impact.</span></h1><p>I create fast-paced Shorts and Reels, plus polished video projects built to keep people watching.</p><div class="actions"><a class="button" href="#shorts">Explore my work</a><a class="button secondary" href="#contact">Get in touch</a></div></section>
 <div class="strapline" aria-label="Short-form video editing · creative cuts · polished projects"><span>SHORT-FORM VIDEO EDITING</span><b>✦</b><span>CREATIVE CUTS</span><b>✦</b><span>POLISHED PROJECTS</span></div>
 <section class="wrap milestone" id="milestone" aria-labelledby="milestone-title">
-<div class="milestone-copy"><div class="eyebrow">Client success</div><h2 id="milestone-title"><span class="milestone-count" data-count="101379">101,379</span><small>Views</small></h2><p>The Warden SMP Short had 101,379 public views as of October 22, 2026.</p><a class="milestone-source" href="https://www.youtube.com/shorts/PV3rpHzCiDI" target="_blank" rel="noopener noreferrer">Watch the Short ↗</a></div>
-<div class="milestone-media"><div class="milestone-visual" role="img" aria-label="Illustrative smooth line graph rising from zero to 101,379 views on the Warden SMP Short, checked October 22, 2026"><div class="milestone-chart"><svg viewBox="0 0 320 130" role="presentation" aria-hidden="true"><line class="milestone-axis" x1="36" y1="8" x2="36" y2="116"/><line class="milestone-axis" x1="36" y1="116" x2="312" y2="116"/><line class="milestone-grid" x1="36" y1="62" x2="312" y2="62"/><text class="milestone-chart-zero" x="0" y="120">0</text><text class="milestone-chart-label" x="220" y="18">101,379</text><path class="milestone-line-glow" d="M40 108 C88 103 103 91 138 82 S191 67 218 55 S270 35 306 22"/><path class="milestone-line" d="M40 108 C88 103 103 91 138 82 S191 67 218 55 S270 35 306 22"/><circle class="milestone-dot" cx="306" cy="22" r="7"/></svg></div><div class="milestone-chart-caption"><span>ILLUSTRATIVE LINE · COUNT AS OF OCT 22, 2026</span></div></div><div class="milestone-video"><video controls preload="metadata" playsinline aria-label="Featured video clip"><source src="https://github.com/Techgaming99/pionx-portfolio/releases/download/v1.0.0/Sequence_01_4.mp4" type="video/mp4">Your browser does not support embedded video.</video></div></div>
+<div class="milestone-copy"><div class="eyebrow">Client success</div><h2 id="milestone-title"><span class="milestone-count" data-count="101379">101,379</span><small>Views</small></h2><p>Warden SMP Short · live public view count from YouTube.</p><p class="milestone-status" id="milestone-status" aria-live="polite">Live counter setup is pending · showing last saved count.</p><a class="milestone-source" href="https://www.youtube.com/shorts/PV3rpHzCiDI" target="_blank" rel="noopener noreferrer">Watch the Short ↗</a></div>
+<div class="milestone-media"><div class="milestone-visual" role="img" aria-label="Live view-count progress chart for the Warden SMP Short"><div class="milestone-chart"><svg viewBox="0 0 320 130" role="presentation" aria-hidden="true"><line class="milestone-axis" x1="36" y1="8" x2="36" y2="116"/><line class="milestone-axis" x1="36" y1="116" x2="312" y2="116"/><line class="milestone-grid" x1="36" y1="62" x2="312" y2="62"/><text class="milestone-chart-max" x="0" y="16" id="milestone-chart-max">150,000</text><text class="milestone-chart-mid" x="0" y="66" id="milestone-chart-mid">75,000</text><text class="milestone-chart-zero" x="0" y="120">0</text><text class="milestone-chart-label" x="306" y="33" text-anchor="end" id="milestone-chart-count">101,379</text><path class="milestone-line-glow" id="milestone-line-glow" d="M40 108 C110 98 230 52 306 43"/><path class="milestone-line" id="milestone-line" d="M40 108 C110 98 230 52 306 43"/><circle class="milestone-dot" id="milestone-dot" cx="306" cy="43" r="7"/></svg></div><div class="milestone-chart-caption"><span>LIVE VIEW COUNT · REFRESHES EVERY 5 MINUTES</span></div></div><div class="milestone-video"><video controls preload="metadata" playsinline aria-label="Featured video clip"><source src="https://github.com/Techgaming99/pionx-portfolio/releases/download/v1.0.0/Sequence_01_4.mp4" type="video/mp4">Your browser does not support embedded video.</video></div></div>
 </section>
 <section class="wrap" id="shorts"><div class="sectionhead"><div><div class="eyebrow">Selected edits</div><h2>Shorts &amp; Reels</h2></div><div class="muted">Vertical edits made for quick, clear storytelling.</div></div><div class="workgrid">
 <article class="card"><div class="video-frame"><video controls preload="metadata" playsinline aria-label="New Zombie"><source src="https://github.com/Techgaming99/pionx-portfolio/releases/download/v1.0.0/Recording_16_1_4.mp4" type="video/mp4">Your browser does not support embedded video.</video></div><div class="cardbody"><h3>New Zombie</h3><p>Short-form edit</p></div></article>
@@ -170,28 +170,77 @@ if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&'IntersectionObserve
   revealTargets.forEach((item)=>item.classList.add('is-visible'));
 }
 const milestoneCounter=document.querySelector('.milestone-count');
-if(milestoneCounter){
-  const target=Number(milestoneCounter.dataset.count||101379);
+const milestoneStatus=document.querySelector('#milestone-status');
+const milestoneVisual=document.querySelector('.milestone-visual');
+const milestoneLine=document.querySelector('#milestone-line');
+const milestoneLineGlow=document.querySelector('#milestone-line-glow');
+const milestoneDot=document.querySelector('#milestone-dot');
+const milestoneChartCount=document.querySelector('#milestone-chart-count');
+const milestoneChartMax=document.querySelector('#milestone-chart-max');
+const milestoneChartMid=document.querySelector('#milestone-chart-mid');
+if(milestoneCounter&&milestoneLine&&milestoneDot){
   const numberFormat=new Intl.NumberFormat('en-US');
-  if(matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window)){
-    milestoneCounter.textContent=numberFormat.format(target);
-  }else{
-    const counterObserver=new IntersectionObserver((entries,observer)=>{
-      if(!entries.some((entry)=>entry.isIntersecting))return;
-      observer.disconnect();
-      const start=performance.now();
-      const duration=1500;
-      const step=(now)=>{
-        const progress=Math.min((now-start)/duration,1);
-        const eased=1-Math.pow(1-progress,3);
-        milestoneCounter.textContent=numberFormat.format(Math.round(target*eased));
-        if(progress<1)requestAnimationFrame(step);
-      };
-      milestoneCounter.textContent='0';
-      requestAnimationFrame(step);
-    },{threshold:.5});
-    counterObserver.observe(milestoneCounter);
-  }
+  const graphMax=150000;
+  let currentViews=Number(milestoneCounter.dataset.count||101379);
+  let lastCheckedAt=0;
+  const renderViews=(views)=>{
+    const count=Math.max(0,Math.floor(views));
+    milestoneCounter.textContent=numberFormat.format(count);
+    milestoneChartCount.textContent=numberFormat.format(count);
+    milestoneChartMax.textContent=numberFormat.format(graphMax);
+    milestoneChartMid.textContent=numberFormat.format(graphMax/2);
+    const ratio=Math.min(count/graphMax,1);
+    const endY=116-(ratio*108);
+    const rise=108-endY;
+    const d='M40 108 C110 '+(108-rise*.16)+' 230 '+(endY+rise*.14)+' 306 '+endY;
+    milestoneLine.setAttribute('d',d);
+    milestoneLineGlow.setAttribute('d',d);
+    milestoneDot.setAttribute('cy',String(endY));
+    milestoneChartCount.setAttribute('y',String(Math.max(16,endY-10)));
+    milestoneVisual.setAttribute('aria-label','The Warden SMP Short has '+numberFormat.format(count)+' YouTube views, shown against a 150,000-view scale.');
+  };
+  const animateViews=(nextViews)=>{
+    const from=currentViews;
+    const to=Math.max(0,Math.floor(nextViews));
+    currentViews=to;
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches||from===to){
+      renderViews(to);
+      return;
+    }
+    const started=performance.now();
+    const duration=1100;
+    const step=(now)=>{
+      const progress=Math.min((now-started)/duration,1);
+      const eased=1-Math.pow(1-progress,3);
+      renderViews(Math.round(from+(to-from)*eased));
+      if(progress<1)requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
+  const refreshLiveViews=async()=>{
+    lastCheckedAt=Date.now();
+    try{
+      const response=await fetch('/.netlify/functions/youtube-views',{cache:'no-store',headers:{Accept:'application/json'}});
+      const data=await response.json();
+      if(data.error==='not_configured'){
+        milestoneStatus.textContent='Live counter setup is pending · showing last saved count.';
+        return;
+      }
+      const views=Number(data.views);
+      if(!response.ok||!Number.isSafeInteger(views)||views<0)throw new Error('count unavailable');
+      animateViews(views);
+      const updatedAt=data.fetchedAt?new Date(data.fetchedAt):new Date();
+      milestoneStatus.textContent='Live count · updated '+updatedAt.toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
+    }catch{
+      milestoneStatus.textContent='Live count temporarily unavailable · showing last saved count.';
+    }
+  };
+  renderViews(currentViews);
+  refreshLiveViews();
+  setInterval(()=>{if(!document.hidden)refreshLiveViews();},5*60*1000);
+  document.addEventListener('visibilitychange',()=>{
+    if(!document.hidden&&Date.now()-lastCheckedAt>=5*60*1000)refreshLiveViews();
+  });
 }
 </script>
 </body></html>
